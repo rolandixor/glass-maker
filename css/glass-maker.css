@@ -93,7 +93,7 @@
 }
 
 .gm-menubutton:hover {
-  display: inline-block;
+  display: flex;
 }
 
 /*.gm-menubutton > .gm-menu {
