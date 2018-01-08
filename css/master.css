@@ -1,6 +1,6 @@
 body {
   font-family: Lato;
-  text-shadow: rgba(0, 0, 0, 1);
+  text-shadow: rgba(0, 0, 0, 1) !important;
   background-image: url(bg.png);
   background-size: cover;
   background-repeat: no-repeat;
