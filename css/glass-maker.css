@@ -43,7 +43,7 @@
   content: "";
   position: absolute;
   top: 85.5%;
-  left: 32.5%;
+  left: 50;
   border-width: 2px 0px 0px 0px;
   width: 0%;
   border-style: solid;
@@ -58,5 +58,5 @@
   left: 2.5%;
   width: 95.5%;
   opacity: 0.5;
-  transition: 0.475s;
+  transition: all 0.475s;
 }
