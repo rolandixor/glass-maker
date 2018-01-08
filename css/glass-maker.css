@@ -85,7 +85,7 @@
 
 .gm-menubutton > * > * {
   opacity: 1;
-  transition: 0.375s;
+  transition: all 0.375s;
 }
 
 .gm-menubutton > .gm-menu {
