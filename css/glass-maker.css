@@ -64,7 +64,6 @@
 }
 
 .gm-menubutton > .gm-menu {
-  min-width: 195px;
   position: absolute;
   opacity: 0;
   background-color: rgba(255, 255, 255, 0.7);
