@@ -88,6 +88,10 @@
   transition: all 0.375s;
 }
 
+.gm-menubutton > * {
+
+}
+
 .gm-menubutton > .gm-menu {
   position: absolute;
   opacity: 0;
