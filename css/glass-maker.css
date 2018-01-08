@@ -92,7 +92,7 @@
   display: none;
 }
 
-.gm-menubutton:hover {
+.gm-menubutton:hover > *{
   display: flex;
 }
 
