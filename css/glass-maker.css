@@ -15,6 +15,7 @@
   position: relative;
   font-variant: small-caps;
   text-decoration: none;
+  color: inherit;
   letter-spacing: 3px;
   width: auto;
   min-width: 175px;
