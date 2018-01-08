@@ -1,5 +1,5 @@
 body {
-  background-image: radial-gradient(rgb(135, 135, 145), rgb(25, 25, 35));
+  background-image: radial-gradient( rgb(25, 25, 35)rgb(135, 135, 145),);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
