@@ -79,7 +79,7 @@
 
 .gm-menubutton:hover > .gm-menu {
   position: absolute;
-  top: 105;
+  top: 105%;
   opacity: 1;
   height: auto;
   background-color: rgba(255, 255, 255, 0.7);
