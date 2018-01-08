@@ -43,7 +43,7 @@
   transition: 0.375s;
 }
 
-.gm-button::after {
+.gm-button::after, .gm-menubutton::after {
   content: "";
   position: absolute;
   top: 107.5%;
