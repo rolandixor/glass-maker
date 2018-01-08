@@ -67,7 +67,7 @@
 
 .gm-button:active {
   color: rgb(75, 145, 195);
-  transition: all 0.475s;
+  transition: all 0.175s;
 }
 
 .gm-button.active {
