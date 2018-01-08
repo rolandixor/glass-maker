@@ -34,7 +34,7 @@
 }
 
 .gm-button:hover, .gm-menubutton:hover {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
   border-color: rgba(135, 135, 135, 0.3);
   box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.3);
   letter-spacing: 5px;
