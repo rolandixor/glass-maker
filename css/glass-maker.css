@@ -49,7 +49,7 @@
   border-style: solid;
   border-color: white;
   opacity: 0;
-  transition: 1s;
+  transition: all 1s;
 }
 
 .gm-button:hover:after {
