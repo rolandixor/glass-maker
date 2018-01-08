@@ -80,6 +80,7 @@
 .gm-menubutton:hover > .gm-menu {
   position: absolute;
   top: 103.5%;
+  left: 0%;
   opacity: 1;
   width: 100%;
   height: auto;
