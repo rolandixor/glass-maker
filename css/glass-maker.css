@@ -67,6 +67,7 @@
 
 .gm-menubutton:hover:after {
   top: 102.5%;
+  width: 75%;
 }
 
 .gm-menubutton {
