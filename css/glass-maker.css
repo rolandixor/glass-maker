@@ -25,6 +25,7 @@
   border-style: solid;
   border-width: 1px;
   transition: 1s;
+  display: flex;
 }
 
 .gm-button:hover {
