@@ -65,7 +65,7 @@
   transition: all 0.475s;
 }
 
-.gm-button:active {
+.gm-button:focus {
   color: rgb(75, 145, 195);
 }
 
