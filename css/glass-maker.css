@@ -11,6 +11,7 @@
 }
 
 .gm-button {
+  font-variant:small-caps;
   min-width: 135px;
   max-width: 175px;
   text-align: center;
