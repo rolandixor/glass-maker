@@ -44,7 +44,7 @@
   position: absolute;
   top: 105%;
   left: 32.5%;
-  border-width: 1px;
+  border-width: 1px 0px 0px 0px;
   width: 35%;
   border-style: solid;
   border-color: white;
