@@ -83,6 +83,10 @@
   min-width: 195px;
 }
 
+.gm-menubutton > * > * {
+  min-width: 195px;
+}
+
 .gm-menubutton > .gm-menu {
   position: absolute;
   opacity: 0;
