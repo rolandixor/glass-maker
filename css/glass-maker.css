@@ -71,6 +71,7 @@
 
 .gm-button:active {
   border-color: rgba(0, 135, 235, 0.5);
+  transition: 0.375s;
 }
 
 .gm-menubutton {
