@@ -70,6 +70,10 @@
   box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.7);
 }
 
+.gm-button:active {
+  box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.7);
+}
+
 .gm-menubutton {
   min-width: 195px;
 }
