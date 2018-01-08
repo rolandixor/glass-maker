@@ -53,7 +53,7 @@
   border-style: solid;
   border-color: white;
   opacity: 0;
-  transition: all 1s;
+  transition: all 1.375s;
 }
 
 .gm-button:hover:after, .gm-button.active::after {
