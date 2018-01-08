@@ -70,6 +70,10 @@
   transition: 0.375s;
 }
 
+.gm-button:visited {
+  color: black;
+}
+
 .gm-button.active {
   color: rgb(65, 175, 195);
 }
