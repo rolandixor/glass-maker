@@ -5,6 +5,6 @@ body {
   background-attachment: fixed;
 }
 
-.glass-nav {
+.glass-nav, nav {
   height: 50px;
 }
