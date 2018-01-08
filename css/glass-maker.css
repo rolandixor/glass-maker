@@ -65,6 +65,10 @@
   transition: all 0.475s;
 }
 
+.gm-menubutton:hover:after {
+  top: 105%;
+}
+
 .gm-menubutton {
   min-width: 195px;
 }
