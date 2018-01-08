@@ -86,7 +86,6 @@
 .gm-menubutton:hover > * > * {
   opacity: 1;
   transition: all 0.375s;
-  height: auto;
 }
 
 .gm-menubutton > * {
