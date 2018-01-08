@@ -89,7 +89,7 @@
 }
 
 .gm-menubutton > * {
-  display: none;
+  display: flex;
 }
 
 .gm-menubutton:hover {
