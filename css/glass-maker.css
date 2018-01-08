@@ -75,10 +75,6 @@
   border-radius: 5px 5px 0px 0px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0);
   min-width: 195px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content:center;
 }
 
 .gm-menubutton > * > * {
@@ -87,20 +83,12 @@
   transition: all 0.135s;
 }
 
-.gm-menubutton:hover > * > * {
+.gm-menubutton > * > * {
   opacity: 1;
   transition: all 0.375s;
 }
 
-.gm-menubutton > * {
-  display: none;
-}
-
-.gm-menubutton:hover > *{
-  display: inline-block;
-}
-
-/*.gm-menubutton > .gm-menu {
+.gm-menubutton > .gm-menu {
   position: absolute;
   opacity: 0;
   visibility: hidden;
@@ -128,4 +116,4 @@
   border-color: rgba(135, 135, 135, 0.0);
   box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.0);
   transition: 0.475s;
-}*/
+}
