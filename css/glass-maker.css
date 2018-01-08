@@ -40,7 +40,7 @@
 }
 
 .gm-button::after {
-  content: ""''
+  content: "";
   position: absolute;
   top: 105%;
   left: 0%;
