@@ -92,6 +92,10 @@
   display: none;
 }
 
+.gm-menubutton:hover {
+  display: inline-block;
+}
+
 .gm-menubutton > .gm-menu {
   position: absolute;
   opacity: 0;
