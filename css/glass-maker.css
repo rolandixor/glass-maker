@@ -50,7 +50,7 @@
   transition: 1s;
 }
 
-.gm-button::after {
+.gm-button:hover:after {
   position: absolute;
   top: 105%;
   left: 0%;
