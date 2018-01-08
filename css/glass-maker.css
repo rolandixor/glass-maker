@@ -70,6 +70,7 @@
 .gm-menubutton > .gm-menu {
   position: absolute;
   opacity: 0;
+  visibility: hidden;
   top: -500%;
   height: 0px;
   width: 100%;
