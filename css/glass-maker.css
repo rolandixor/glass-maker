@@ -49,3 +49,14 @@
   border-color: white;
   transition: 1s;
 }
+
+.gm-button::after {
+  position: absolute;
+  top: 105%;
+  left: 0%;
+  border-width: 100px;
+  width: 100%;
+  border-style: solid;
+  border-color: white;
+  transition: 1s;
+}
