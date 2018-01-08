@@ -79,6 +79,7 @@
 
 .gm-menubutton > * > * {
   margin: 10px 5px 10px 5px;
+  opacity: 0;
 }
 
 .gm-menubutton > .gm-menu {
