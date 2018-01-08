@@ -63,6 +63,10 @@
   transition: all 0.475s;
 }
 
+.gm-menubutton {
+  min-width: 195px;
+}
+
 .gm-menubutton > .gm-menu {
   position: absolute;
   opacity: 0;
