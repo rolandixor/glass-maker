@@ -89,7 +89,7 @@
 }
 
 .gm-menubutton > * {
-
+  display: none;
 }
 
 .gm-menubutton > .gm-menu {
