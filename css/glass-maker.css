@@ -70,6 +70,7 @@
 }
 
 .gm-menubutton:hover {
+  background-color: rgba(255, 255, 255, 0.7);
   border-color: rgba(135, 135, 135, 0);
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0);
   min-width: 195px;
