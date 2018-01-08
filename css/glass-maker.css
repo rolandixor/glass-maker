@@ -54,7 +54,7 @@
 
 .gm-button:hover:after {
   position: absolute;
-  left: 1.5%;
+  left: 2.5%;
   width: 95.5%;
   opacity: 0.5;
   transition: 1s;
