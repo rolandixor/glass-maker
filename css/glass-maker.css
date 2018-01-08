@@ -89,7 +89,7 @@
   left: 0%;
   height: 0px;
   width: 100%;
-  padding: 0px 0px 5px 0px;
+  padding: -5px 0px 5px 0px;
   background-color: rgba(255, 255, 255, 0.7);
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
   transition: 0.375s;
