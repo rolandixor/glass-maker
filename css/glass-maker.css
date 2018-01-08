@@ -41,4 +41,5 @@
 
 gm-button::after {
   border-width: 1px;
+  width: 0px;
 }
