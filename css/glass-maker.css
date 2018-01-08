@@ -41,7 +41,7 @@
 
 gm-button::after {
   border-width: 1px;
-  width: 0px;
+  width: 100%;
   border-style: solid;
   border-color: white;
   transition: 1s;
