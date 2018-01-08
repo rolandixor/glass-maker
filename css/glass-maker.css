@@ -11,8 +11,8 @@
 }
 
 .gm-button {
-  min-width: 215px;
-  max-width: 275px;
+  min-width: 135px;
+  max-width: 175px;
   padding: 5px;
   border-color: rgba(255, 255, 255, 0.5);
   border-style: solid;
