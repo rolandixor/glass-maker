@@ -23,7 +23,7 @@
   border-width: 1px;
 }
 
-.gm-button {
+.gm-button:hover {
   min-width: 135px;
   max-width: 175px;
   text-align: center;
