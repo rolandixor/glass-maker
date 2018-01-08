@@ -42,7 +42,7 @@
 .gm-button::after {
   content: "";
   position: absolute;
-  top: 105%;
+  top: 110%;
   left: 32.5%;
   border-width: 2px 0px 0px 0px;
   width: 35%;
