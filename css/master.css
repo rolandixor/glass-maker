@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(rgb(35, 35, 45), rgb(75, 75, 135), rgb(25, 25, 35));
+  background-image: linear-gradient(rgb(75, 75, 135), rgb(25, 25, 35));
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
