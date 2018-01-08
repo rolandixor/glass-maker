@@ -84,7 +84,7 @@
 }
 
 .gm-menubutton > * > * {
-  min-width: 195px;
+  margin: 5px 0px 5px 0px;
 }
 
 .gm-menubutton > .gm-menu {
