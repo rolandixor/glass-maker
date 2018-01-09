@@ -144,7 +144,7 @@
   transition: 0.475s;
 }
 
-.gm-menu::after {
+.gm-menubutton > .gm-menu::after {
   content: "";
   position: absolute;
   visibility: visible;
