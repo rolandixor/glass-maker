@@ -82,6 +82,10 @@
   min-width: 195px;
 }
 
+.gm-menubutton:hover {
+  color: rgb(35, 35, 35);
+}
+
 .gm-menubutton::after {
   content: "|||";
   color: black;
