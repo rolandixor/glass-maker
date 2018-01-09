@@ -83,7 +83,7 @@
 .gm-menubutton::after {
   content: "|||";
   position: absolute;
-  top: 21.5%;
+  top: 22.5%;
   left: 85%;
   transform: rotate(90deg);
 }
