@@ -158,7 +158,7 @@
   transition: 0.475s;
 }
 
-.gm-menubutton:hover > .gm-menu:hover:after {
+.gm-menubutton:hover > .gm-menu::after {
   position: absolute;
   visibility: visible;
   top: 93.5%;
