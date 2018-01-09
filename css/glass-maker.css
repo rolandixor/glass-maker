@@ -77,6 +77,7 @@
 }
 
 .gm-menubutton {
+  background-color: rgba(255, 255, 255, 0.5);
   color: rgb(15, 135, 215);
   padding-right: 25px;
   min-width: 195px;
