@@ -155,6 +155,7 @@
   min-height: 100%;
   border-radius: 0px 0px 5px 5px;
   border-color: rgba(35, 135, 235, 0.0);
+  border-style: solid;
   transition: 0.475s;
 }
 
