@@ -145,6 +145,7 @@
 }
 
 .gm-menu::after {
+  content: "";
   position: absolute;
   visibility: visible;
   top: 101.5%;
