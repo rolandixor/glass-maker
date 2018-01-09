@@ -84,6 +84,7 @@
 
 .gm-menubutton::after {
   content: "|||";
+  color: black;
   position: absolute;
   top: 27.5%;
   left: 89.5%;
