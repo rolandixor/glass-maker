@@ -85,7 +85,7 @@
   position: absolute;
   top: 15%;
   left: 85%;
-  transform: rotateX(100deg);
+  transform: rotateX(90deg);
 }
 
 .gm-menubutton:hover {
