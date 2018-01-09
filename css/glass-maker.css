@@ -94,7 +94,7 @@
 }
 
 .gm-menubutton:hover:after {
-  color: rgb(35, 105, 215);
+  color: rgb(35, 35, 35);
   letter-spacing: 3px;
   transform: rotate(0deg);
   color: rgb(35, 135, 235);
