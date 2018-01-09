@@ -85,7 +85,7 @@
 
 .gm-menubutton:hover {
   color: rgb(35, 175, 175);
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .gm-menubutton::after {
