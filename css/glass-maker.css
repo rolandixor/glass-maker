@@ -93,6 +93,7 @@
 .gm-menubutton:hover:after {
   letter-spacing: 3px;
   transform: rotate(90deg);
+  transition: 0.735s;
 }
 
 .gm-menubutton:hover {
