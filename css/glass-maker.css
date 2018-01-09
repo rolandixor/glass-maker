@@ -145,6 +145,21 @@
   transition: 0.475s;
 }
 
+.gm-menubutton:hover > .gm-menu {
+  position: absolute;
+  visibility: visible;
+  top: 101.5%;
+  left: -0.5%;
+  opacity: 1;
+  width: 101%;
+  height: auto;
+  min-height: 100%;
+  border-radius: 0px 0px 5px 5px;
+  border-color: rgba(135, 135, 135, 0.0);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.475s;
+}
+
 /*Panels*/
 .gm-panel {
   border-radius: 8px;
