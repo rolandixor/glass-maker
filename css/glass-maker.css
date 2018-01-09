@@ -85,6 +85,7 @@
   position: absolute;
   top: 28.5%;
   left: 85%;
+  letter-spacing: 1px;
   transform: rotate(90deg);
 }
 
