@@ -165,7 +165,6 @@
   left: 4.5%;
   opacity: 1;
   width: 92.5%;
-  border-radius: 0px 0px 5px 5px;
   border-image: linear-gradient(rgba(35, 135, 235, 0), rgba(35, 135, 235, 1)) 1 100%;
   transition: 0.475s;
 }
