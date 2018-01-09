@@ -87,7 +87,7 @@
   left: 89.5%;
   letter-spacing: 1px;
   transform: rotate(90deg);
-  transition: 1.735s;
+  transition: 0.735s;
 }
 
 .gm-menubutton:hover:after {
