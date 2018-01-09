@@ -70,7 +70,9 @@
 }
 
 .gm-button:active {
-  border-color: rgba(0, 135, 235, 0.5);
+  border-color: rgba(0, 135, 235, 0.2);
+  border-radius: 5px;
+  transition: 0.475s;
 }
 
 .gm-menubutton {
@@ -105,7 +107,7 @@
   height: 0px;
   width: 100%;
   padding: 0px 0px 5px 0px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 1));
   box-shadow: 5px 5px -5px rgba(0, 0, 0, 0.3);
   transition: 0.375s;
 }
@@ -123,4 +125,151 @@
   border-color: rgba(135, 135, 135, 0.0);
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
   transition: 0.475s;
+}
+
+/*Panels*/
+.gm-panel {
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+  border-color: rgba(255, 255, 255, 0.3);
+  border-style: solid;
+  border-width: 1px;
+  padding: 15px 15px 15px 15px;
+  margin: 35px;
+}
+
+/*Panels*/
+.gm-panel > [class*="gm-panel"] {
+  margin: 5px;
+}
+
+.gm-panel-1 {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(235, 235, 235, 0.7);
+}
+
+.gm-dark-panel-1 {
+  color: white;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  background-color: rgba(15, 15, 15, 0.1);
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.gm-panel-3 {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(235, 235, 235, 0.7);
+}
+
+.gm-dark-panel-3 {
+  color: white;
+  background-color: rgba(15, 15, 15, 0.3);
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.gm-panel-5 {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(235, 235, 235, 0.7);
+}
+
+.gm-dark-panel-5 {
+  color: white;
+  background-color: rgba(15, 15, 15, 0.5);
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.gm-panel-7 {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-color: rgba(235, 235, 235, 0.7);
+}
+
+.gm-dark-panel-7 {
+  color: white;
+  background-color: rgba(15, 15, 15, 0.7);
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+/*Cards*/
+.gm-card-rim, .gm-card {
+  max-width: 215px;
+  min-height: 235px;
+}
+
+.gm-card-rim {
+  margin: 35px;
+  padding: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(235, 235, 235, 0.2);
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.gm-card-rim > .gm-card {
+  margin: 0%;
+  max-width: 100%;
+  min-height: 235px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0) !important;
+}
+
+.gm-card {
+  margin: 40px;
+  min-height: 235px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 1));
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.gm-card-inner {
+  padding: 35px;
+}
+
+/*Images*/
+.gm-avatar {
+  border-radius: 100%;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.35);
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
+  margin: 35px;
+}
+
+.gm-avatar-sq {
+  border-radius: 7.35%;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.35);
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
+  margin: 35px;
+}
+
+.gm-avatar-rm-left {
+  border-radius: 7.35% 35% 7.35% 35%;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.35);
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
+  margin: 35px;
+}
+
+.gm-avatar-rm-right {
+  border-radius: 35% 7.35% 35% 7.35%;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.35);
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
+  margin: 35px;
+}
+
+/*Helper classes*/
+.gm-35p {
+  width: 35%;
+  max-width: 35%;
+}
+
+.gm-45p {
+  width: 45%;
+  max-width: 45%;
+}
+
+.gm-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
