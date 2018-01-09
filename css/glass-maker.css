@@ -152,10 +152,9 @@
   left: 50%;
   opacity: 1;
   width: 0%;
-  height: 1%;
   border-style: solid;
-  border-width: 2px 2px 2px 2px;
-  border-image: linear-gradient(rgba(35, 135, 235, 0), rgba(35, 135, 235, 1)) 1 100%;
+  border-width: 2px 0px 0px 0px;
+  border-color: rgba(35, 135, 235, 0);
   transition: 0.475s;
 }
 
@@ -166,7 +165,8 @@
   left: 4.5%;
   opacity: 1;
   width: 92.5%;
-  border-image: linear-gradient(rgba(35, 135, 235, 0), rgba(35, 135, 235, 1)) 1 100%;
+  border-radius: 0px 0px 5px 5px;
+  border-color: rgba(35, 135, 235, 0.3);
   transition: 0.475s;
 }
 
