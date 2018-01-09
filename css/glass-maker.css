@@ -81,6 +81,7 @@
 }
 
 .gm-menubutton::after {
+  content: '|||';
   position: absolute;
   top: 15%;
 }
