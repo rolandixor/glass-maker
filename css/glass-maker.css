@@ -90,10 +90,6 @@
 }
 
 .gm-menubutton:hover:after {
-  content: "|||";
-  position: absolute;
-  top: 27.5%;
-  left: 89.5%;
   letter-spacing: 1px;
   transform: rotate(90deg);
 }
