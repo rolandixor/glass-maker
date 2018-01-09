@@ -109,7 +109,7 @@
 }
 
 .gm-menubutton > * > * {
-  color: black;
+  color: rgb(35, 35, 35)
   margin: 10px 5px 10px 5px;
   opacity: 0;
   transition: all 0.135s;
