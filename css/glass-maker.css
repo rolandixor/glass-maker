@@ -19,6 +19,10 @@
   left: 2.35%;
 }
 
+.gm-button.gm-icon-btn {
+  padding-left: 35px;
+}
+
 .gm-button, .gm-menubutton {
   position: relative;
   font-variant: small-caps;
