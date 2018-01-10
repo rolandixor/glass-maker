@@ -269,7 +269,7 @@
   text-shadow: none;
   margin: 40px;
   min-height: 235px;
-  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.7));
   border-radius: 8px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
   transition: 1.375s;
