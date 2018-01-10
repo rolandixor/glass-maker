@@ -423,6 +423,10 @@
   max-width: 45%;
 }
 
+.gm-full {
+  width: 100%;
+}
+
 .gm-flex {
   display: flex;
   align-items: center;
