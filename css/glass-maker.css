@@ -409,7 +409,7 @@
 }
 
 .gm-header-left {
-  margin-right: auto;
+  float: left;
 }
 
 /*Helper classes*/
