@@ -273,7 +273,7 @@
 
 .gm-card:hover {
   background-color: black;
-  transition: 1s;
+  transition: 0.375s;
 }
 
 .gm-card-inner {
