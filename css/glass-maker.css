@@ -11,6 +11,10 @@
   border-radius: 3px;
 }
 
+.gm-button > img, .gm-menubutton > img.icon {
+
+}
+
 .gm-button, .gm-menubutton {
   position: relative;
   font-variant: small-caps;
