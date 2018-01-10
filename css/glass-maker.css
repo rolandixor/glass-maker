@@ -268,6 +268,7 @@
   background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1));
   border-radius: 5px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+  transition: 1.375s;
 }
 
 .gm-card:hover {
