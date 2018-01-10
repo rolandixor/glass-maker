@@ -412,6 +412,10 @@
   float: left;
 }
 
+.gm-header-left {
+  float: left;
+}
+
 /*Helper classes*/
 .gm-35p {
   width: 35%;
