@@ -13,8 +13,9 @@
 
 .gm-button > img.gm-btn-icon, .gm-menubutton > img.gm-btn-icon {
   position: absolute;
-  width: 24px;
+  max-width: 24px;
   height: auto;
+
 }
 
 .gm-button, .gm-menubutton {
