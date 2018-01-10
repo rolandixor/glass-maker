@@ -308,7 +308,9 @@
 }
 
 /*Headers*/
-.gm-header
+.gm-header {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 1););
+}
 
 /*Helper classes*/
 .gm-35p {
