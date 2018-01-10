@@ -265,6 +265,7 @@
 }
 
 .gm-card {
+  color: black;
   margin: 40px;
   min-height: 235px;
   background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 1));
