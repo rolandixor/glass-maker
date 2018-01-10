@@ -408,6 +408,10 @@
   color: rgb(35, 35, 35);
 }
 
+.gm-header-left {
+  margin-right: auto;
+}
+
 /*Helper classes*/
 .gm-35p {
   width: 35%;
