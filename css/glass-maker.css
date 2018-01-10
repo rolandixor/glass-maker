@@ -12,10 +12,7 @@
 }
 
 .gm-button > img.gm-btn-icon, .gm-menubutton > img.gm-btn-icon {
-  max-width: 24px;
-  height: auto;
-  top: 5%;
-  left: 15%;
+
 }
 
 .gm-button, .gm-menubutton {
