@@ -100,7 +100,7 @@
 
 .gm-menubutton:hover:after {
   letter-spacing: 3px;
-  transform: rotate(180deg);
+  transform: rotate(360deg);
   color: rgb(35, 135, 235);
   transition: 0.435s;
 }
