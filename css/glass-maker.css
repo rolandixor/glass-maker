@@ -271,7 +271,7 @@
 }
 
 .gm-card:hover {
-  background-color: white;
+  background-color: blue;
   transition: 1s;
 }
 
