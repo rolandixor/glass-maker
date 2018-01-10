@@ -208,7 +208,7 @@
 
 .gm-panel-3 {
   background-color: rgba(255, 255, 255, 0.3);
-  border-color: rgba(235, 235, 235, 0.7);
+  border-color: rgba(235, 235, 235, 0.5);
 }
 
 .gm-dark-panel-3 {
@@ -311,6 +311,7 @@
 .gm-header {
   background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 1));
   color: rgb(35, 35, 35);
+
 }
 
 /*Helper classes*/
