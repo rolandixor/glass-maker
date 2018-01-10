@@ -170,7 +170,7 @@
 .gm-menubutton:hover > .gm-menu::after {
   position: absolute;
   visibility: visible;
-  top: 87.5%;
+  top: 85.5%;
   left: 12.5%;
   opacity: 1;
   width: 73.5%;
