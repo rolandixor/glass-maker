@@ -272,6 +272,7 @@
 
 .gm-card:hover {
   background-color: white;
+  transition: 1s;
 }
 
 .gm-card-inner {
