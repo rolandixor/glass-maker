@@ -1,14 +1,44 @@
+.nav-container {
+  position: fixed;
+  top: 0.5%;
+  left: 0%;
+  width: 99%;
+  padding: 5px;;
+  display: flex;
+}
+
 .glass-nav, .nav {
+  position: relative;
+  width: 100%;
   height: 45px;
   padding: 5px 15px 5px 15px;
-  margin: 25px 15px 5px 15px;
   display: flex;
+}
+
+.glass-nav > img.logo-right, .nav > img.logo-right {
+  position: absolute;
+  top: -2.5%;
+  left: 92.5%;
+  max-width: 55px;
+  height: auto;
 }
 
 .glass-nav {
   box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.1);
-  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-  border-radius: 3px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+  border-radius: 5px;
+}
+
+.glass-nav:after {
+  content: "";
+  position: absolute;
+  z-index: -100;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  filter: blur(5px);
 }
 
 .gm-button > img.gm-btn-icon, .gm-menubutton > img.gm-btn-icon {
@@ -49,7 +79,7 @@
 
 .gm-button:hover, .gm-menubutton:hover, .gm-button.active {
   color: rgb(35, 105, 215);
-  background-color: rgba(255, 255, 255, 0.8);
+  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5));
   border-color: rgba(135, 135, 135, 0.3);
   box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.3);
   letter-spacing: 5px;
@@ -89,7 +119,7 @@
 }
 
 .gm-menubutton {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.5));
   color: rgb(15, 135, 215);
   padding-right: 25px;
   min-width: 195px;
@@ -197,7 +227,7 @@
   border-color: rgba(255, 255, 255, 0.3);
   border-style: solid;
   border-width: 1px;
-  padding: 15px 15px 15px 15px;
+  padding: 25px;
   margin: 35px;
 }
 
@@ -221,6 +251,8 @@
 }
 
 .gm-panel-3 {
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.8);
   background-color: rgba(255, 255, 255, 0.3);
   border-color: rgba(235, 235, 235, 0.3);
 }
@@ -253,6 +285,103 @@
   border-color: rgba(255, 255, 255, 0.3);
 }
 
+.gm-dull-panel-1 {
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.8);
+  background-color: rgba(135, 135, 135, 0.1);
+  border-color: rgba(235, 235, 235, 0.5);
+}
+
+.gm-dull-panel-3 {
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.8);
+  background-color: rgba(135, 135, 135, 0.3);
+  border-color: rgba(235, 235, 235, 0.4);
+}
+
+.gm-dull-panel-5 {
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.8);
+  background-color: rgba(135, 135, 135, 0.5);
+  border-color: rgba(235, 235, 235, 0.5);
+}
+
+.gm-dull-panel-7 {
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.8);
+  background-color: rgba(135, 135, 135, 0.7);
+  border-color: rgba(235, 235, 235, 0.5);
+}
+
+.gm-dim-panel-1 {
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.8);
+  background-color: rgba(105, 105, 105, 0.1);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.gm-dim-panel-3 {
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.8);
+  background-color: rgba(105, 105, 105, 0.3);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.gm-dim-panel-5 {
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.8);
+  background-color: rgba(105, 105, 105, 0.5);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.gm-dim-panel-7 {
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.8);
+  background-color: rgba(105, 105, 105, 0.7);
+  border-color: rgba(235, 235, 235, 0.5);
+}
+
+/*Headers*/
+.gm-header {
+  text-shadow: none;
+  font-variant: small-caps;
+  font-size: 135%;
+  letter-spacing: 5px;
+  padding: 15px 35px 15px 35px;
+  margin: 15px;
+  text-align: center;
+  border-radius: 8px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 1));
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
+  color: rgb(35, 35, 35);
+}
+
+.gm-header-dull {
+  color: white;
+  background-image: linear-gradient(rgba(135, 135, 135, 0.8), rgba(105, 105, 105, 1));
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
+}
+
+.gm-header-dim {
+  color: white;
+  background-image: linear-gradient(rgba(105, 105, 105, 0.8), rgba(75, 75, 75, 1));
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
+}
+
+.gm-header-dark {
+  color: white;
+  background-image: linear-gradient(rgba(75, 75, 75, 0.8), rgba(45, 45, 45, 1));
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
+}
+
+.gm-header-left {
+  float: left;
+}
+
+.gm-header-right {
+  float: right;
+}
+
 /*Cards*/
 .gm-card-rim, .gm-card {
   max-width: 215px;
@@ -264,9 +393,10 @@
   padding: 3px;
   border-style: solid;
   border-width: 1px;
-  border-color: rgba(235, 235, 235, 0.2);
+  background-color: rgba(235, 235, 235, 0.2);
+  border-color: rgba(235, 235, 235, 0.3);
   border-radius: 10px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
 }
 
 .gm-card-rim > .gm-card {
@@ -289,7 +419,7 @@
 
 .gm-card:hover {
   background-color: white;
-  transition: 3.475s;
+  transition: 0.715s;
 }
 
 .gm-card-inner {
@@ -297,12 +427,15 @@
 }
 
 /*Images*/
+[class*=gm-avatar] {
+  margin: 5px;
+}
+
 .gm-avatar {
   border-radius: 100%;
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.35);
   box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
-  margin: 15px;
 }
 
 .gm-avatar-sq {
@@ -310,7 +443,6 @@
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.35);
   box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
-  margin: 15px;
 }
 
 .gm-avatar-key {
@@ -318,7 +450,6 @@
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.35);
   box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
-  margin: 15px;
 }
 
 .gm-avatar-key-down {
@@ -326,7 +457,6 @@
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.35);
   box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
-  margin: 15px;
 }
 
 .gm-avatar-tri-left {
@@ -334,7 +464,6 @@
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.35);
   box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
-  margin: 15px;
 }
 
 .gm-avatar-tri-right {
@@ -342,7 +471,6 @@
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.35);
   box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
-  margin: 15px;
 }
 
 .gm-avatar-tri-right-up {
@@ -350,15 +478,13 @@
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.35);
   box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
-  margin: 15px;
 }
 
 .gm-avatar-tri-left-up {
   border-radius: 7.35% 7.35% 100% 7.35%;
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.35);
-  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
-  margin: 15px;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);;
 }
 
 .gm-avatar-eye-left {
@@ -366,7 +492,6 @@
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.35);
   box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
-  margin: 15px;
 }
 
 .gm-avatar-eye-right {
@@ -374,7 +499,6 @@
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.35);
   box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
-  margin: 15px;
 }
 
 .gm-avatar-rm-left {
@@ -382,7 +506,6 @@
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.35);
   box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
-  margin: 15px;
 }
 
 .gm-avatar-rm-right {
@@ -390,33 +513,14 @@
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.35);
   box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
-  margin: 15px;
-}
-
-/*Headers*/
-.gm-header {
-  text-shadow: none;
-  font-variant: small-caps;
-  font-size: 135%;
-  letter-spacing: 5px;
-  padding: 15px 35px 15px 35px;
-  margin: 15px;
-  text-align: center;
-  border-radius: 8px;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 1));
-  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
-  color: rgb(35, 35, 35);
-}
-
-.gm-header-left {
-  float: left;
-}
-
-.gm-header-right {
-  float: right;
 }
 
 /*Helper classes*/
+.gm-25p {
+  width: 25%;
+  max-width: 25%;
+}
+
 .gm-35p {
   width: 35%;
   max-width: 35%;
@@ -431,6 +535,11 @@
   width: 100%;
 }
 
+.gm-spacer-full {
+  width: 100%;
+  height: 50px;
+}
+
 .gm-flex {
   display: flex;
   align-items: center;
@@ -438,8 +547,30 @@
   flex-wrap: wrap;
 }
 
+.gm-flip:hover {
+  transform: rotateY(360deg);
+  transition: all 1.735s;
+}
+
 @media only screen and (max-width: 768px) {
+  [class*=gm-avatar] {
+    margin: 15px;
+  }
+
+  [class*=gm-3], [class*=gm-4], [class*=gm-5], [class*=gm-6] {
+    min-width: 100%;
+  }
+
+  [class*=gm-header] {
+    float: none;
+  }
+
+  .glass-nav, .nav {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
   .gm-flex {
-    flex-direction:row;
+    flex-direction: column;
   }
 }

@@ -9,27 +9,32 @@
     <title>glassMaker • CSS Framework</title>
   </head>
   <body>
-    <div class="nav">
-      <div class="gm-button gm-icon-btn active">
-        <img src="img/glassMakerIcon.svg" alt="" class="gm-btn-icon">
-        glassMaker
-      </div>
-      <a class="gm-button" href="https://github.com/rolandixor/glass-maker" target="_blank">
-        github Project
-      </a>
-      <div class="gm-menubutton">
-        .gm-menuButton
-        <div class="gm-menu">
-          <a class="gm-button" href="#">testButton</a>
-          <a class="gm-button" href="#">testButton</a>
+    <div class="nav-container">
+      <div class="glass-nav">
+        <div class="gm-button gm-icon-btn active">
+          <img src="img/glassMakerIcon.svg" alt="" class="gm-btn-icon">
+          glassMaker
         </div>
+        <a class="gm-button" href="https://github.com/rolandixor/glass-maker" target="_blank">
+          github Project
+        </a>
+        <div class="gm-menubutton">
+          .gm-menuButton
+          <div class="gm-menu">
+            <a class="gm-button" href="#">testButton</a>
+            <a class="gm-button" href="#">testButton</a>
+          </div>
+        </div>
+        <img src="img/glassMakerIconCircle.svg" alt="" class="logo-right">
       </div>
+    </div>
+    <div class="gm-spacer-full">
     </div>
     <div class="gm-panel gm-flex">
       <div class="gm-45p gm-flex">
         <div class="gm-full">
           <div class="gm-header gm-header-left">
-            gm-panel
+            gm-header
           </div>
         </div>
         <div class="gm-full">
@@ -49,22 +54,64 @@
       </div>
       <div class="gm-45p gm-flex">
         <div class="gm-full">
-          <div class="gm-header gm-header-right">
-            gm-dark-panel
+          <div class="gm-header gm-header-right gm-header-dark">
+            gm-header-dark
           </div>
         </div>
         <div class="gm-full">
           <div class="gm-panel gm-dark-panel-1">
-            .gm-dark-panel .gm-dark-panel-1
+            .gm-panel .gm-dark-panel-1
           </div>
           <div class="gm-panel gm-dark-panel-3">
-            .gm-dark-panel .gm-dark-panel-3
+            .gm-panel .gm-dark-panel-3
           </div>
           <div class="gm-panel gm-dark-panel-5">
-            .gm-dark-panel .gm-dark-panel-5
+            .gm-panel .gm-dark-panel-5
           </div>
           <div class="gm-panel gm-dark-panel-7">
-            .gm-dark-panel .gm-dark-panel-7
+            .gm-panel .gm-dark-panel-7
+          </div>
+        </div>
+      </div>
+      <div class="gm-45p gm-flex">
+        <div class="gm-full">
+          <div class="gm-header gm-header-left gm-header-dull">
+            gm-header-dull
+          </div>
+        </div>
+        <div class="gm-full">
+          <div class="gm-panel gm-dull-panel-1">
+            .gm-panel .gm-dull-panel-1
+          </div>
+          <div class="gm-panel gm-dull-panel-3">
+            .gm-panel .gm-dull-panel-3
+          </div>
+          <div class="gm-panel gm-dull-panel-5">
+            .gm-panel .gm-dull-panel-5
+          </div>
+          <div class="gm-panel gm-dull-panel-7">
+            .gm-panel .gm-dull-panel-7
+          </div>
+        </div>
+      </div>
+      <div class="gm-45p gm-flex">
+        <div class="gm-full">
+          <div class="gm-header gm-header-right gm-header-dim">
+            gm-header-dim
+          </div>
+        </div>
+        <div class="gm-full">
+          <div class="gm-panel gm-dim-panel-1">
+            .gm-panel .gm-dim-panel-1
+          </div>
+          <div class="gm-panel gm-dim-panel-3">
+            .gm-panel .gm-dim-panel-3
+          </div>
+          <div class="gm-panel gm-dim-panel-5">
+            .gm-panel .gm-dim-panel-5
+          </div>
+          <div class="gm-panel gm-dim-panel-7">
+            .gm-panel .gm-dim-panel-7
           </div>
         </div>
       </div>
@@ -78,7 +125,7 @@
           <div class="gm-card-rim">
             <div class="gm-card">
               <div class="gm-card-inner">
-                .gm-card-outer > .gm-card
+                .gm-card-outer > .gm-card > gm-card-inner
               </div>
             </div>
           </div>
@@ -87,27 +134,48 @@
               .gm-card > .gm-card-inner
             </div>
           </div>
-        </div>
-      </div>
-      <div class="gm-panel gm-dark-panel-3 gm-35p">
-        <div class="gm-flex">
-          <div class="gm-header">
-            gm-avatars
+          <div class="gm-card gm-flip">
+            <div class="gm-card-inner">
+              .gm-card.gm-flip > .gm-card-inner
+            </div>
           </div>
         </div>
-        <div class="gm-flex">
+      </div>
+    </div>
+    <div class="gm-flex gm-panel gm-dark-panel-3">
+      <div class="gm-flex">
+        <div class="gm-header">
+          gm-avatars
+        </div>
+      </div>
+      <div class="gm-flex">
+        <div class="gm-full">
+          <br>
+          <br>
+        </div>
+        <div class="gm-flex gm-25p">
           <img src="img/avatar.svg" alt="" class="gm-avatar">
           <img src="img/avatar.svg" alt="" class="gm-avatar-sq">
-          <img src="img/avatar.svg" alt="" class="gm-avatar-key">
-          <img src="img/avatar.svg" alt="" class="gm-avatar-key-down">
-          <img src="img/avatar.svg" alt="" class="gm-avatar-tri-left">
-          <img src="img/avatar.svg" alt="" class="gm-avatar-tri-left-up">
-          <img src="img/avatar.svg" alt="" class="gm-avatar-tri-right">
-          <img src="img/avatar.svg" alt="" class="gm-avatar-tri-right-up">
           <img src="img/avatar.svg" alt="" class="gm-avatar-rm-left">
           <img src="img/avatar.svg" alt="" class="gm-avatar-rm-right">
+        </div>
+        <div class="gm-flex gm-35p">
+          <div class="">
+            <div class="gm-full">
+              <img src="img/avatar.svg" alt="" class="gm-avatar-tri-right">
+              <img src="img/avatar.svg" alt="" class="gm-avatar-tri-left">
+            </div>
+            <div class="gm-full">
+              <img src="img/avatar.svg" alt="" class="gm-avatar-tri-right-up">
+              <img src="img/avatar.svg" alt="" class="gm-avatar-tri-left-up">
+            </div>
+          </div>
+        </div>
+        <div class="gm-flex gm-25p">
           <img src="img/avatar.svg" alt="" class="gm-avatar-eye-left">
+          <img src="img/avatar.svg" alt="" class="gm-avatar-key">
           <img src="img/avatar.svg" alt="" class="gm-avatar-eye-right">
+          <img src="img/avatar.svg" alt="" class="gm-avatar-key-down">
         </div>
       </div>
     </div>
