@@ -342,7 +342,8 @@
 }
 
 .gm-dim-panel-7::after {
-
+  position: absolute;
+  background-color: rgba(105, 105, 105, 0.7);
 }
 
 /*Headers*/
