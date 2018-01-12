@@ -315,7 +315,7 @@
   border-color: rgba(235, 235, 235, 0.5);
 }
 
-.gm-dull-panel-3::after {
+.gm-dull-panel-7::after {
   position: absolute;
   background-color: rgba(105, 105, 105, 0.5);
   top: 5%;
