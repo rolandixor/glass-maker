@@ -341,6 +341,10 @@
   border-color: rgba(235, 235, 235, 0.5);
 }
 
+.gm-dim-panel-7::after {
+
+}
+
 /*Headers*/
 .gm-header {
   text-shadow: none;
