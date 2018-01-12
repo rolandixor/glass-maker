@@ -229,8 +229,9 @@
   border-color: rgba(255, 255, 255, 0.3);
   border-style: solid;
   border-width: 1px;
-  padding: 25px;
+  padding: 35px;
   margin: 35px;
+  line-height: 1.5em;
 }
 
 /*Panels*/
@@ -245,6 +246,16 @@
   border-color: rgba(235, 235, 235, 0.3);
 }
 
+.gm-panel-1::after {
+  position: absolute;
+  background-color: rgba(15, 15, 15, 0.1);
+  top: 5%;
+  left: 5%;
+  filter: blur(5px);
+  width: 90%;
+  height: 90%;
+}
+
 .gm-panel-3 {
   color: rgb(255, 255, 255);
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.8);
@@ -252,9 +263,29 @@
   border-color: rgba(235, 235, 235, 0.3);
 }
 
+.gm-panel-3::after {
+  position: absolute;
+  background-color: rgba(15, 15, 15, 0.3);
+  top: 5%;
+  left: 5%;
+  filter: blur(5px);
+  width: 90%;
+  height: 90%;
+}
+
 .gm-panel-5 {
   background-color: rgba(255, 255, 255, 0.5);
   border-color: rgba(235, 235, 235, 0.7);
+}
+
+.gm-panel-5::after {
+  position: absolute;
+  background-color: rgba(15, 15, 15, 0.5);
+  top: 5%;
+  left: 5%;
+  filter: blur(5px);
+  width: 90%;
+  height: 90%;
 }
 
 .gm-panel-7 {
@@ -262,9 +293,9 @@
   border-color: rgba(235, 235, 235, 0.7);
 }
 
-.gm-panel-5::after {
+.gm-panel-7::after {
   position: absolute;
-  background-color: rgba(15, 15, 15, 0.5);
+  background-color: rgba(15, 15, 15, 0.7);
   top: 5%;
   left: 5%;
   filter: blur(5px);
@@ -447,13 +478,15 @@
 }
 
 .gm-dim-panel-5::after {
+  content: "";
+  z-index: -1;
   position: absolute;
-  background-color: rgba(105, 105, 105, 0.5);
-  top: 5%;
-  left: 5%;
-  filter: blur(5px);
-  width: 90%;
-  height: 90%;
+  background-color: rgba(105, 105, 105, 0.3);
+  top: 2.5%;
+  left: 2.5%;
+  filter: blur(15px);
+  width: 95%;
+  height: 95%;
 }
 
 .gm-dim-panel-7 {
@@ -464,13 +497,15 @@
 }
 
 .gm-dim-panel-7::after {
+  content: "";
+  z-index: -1;
   position: absolute;
-  background-color: rgba(105, 105, 105, 0.7);
-  top: 5%;
-  left: 5%;
-  filter: blur(5px);
-  width: 90%;
-  height: 90%;
+  background-color: rgba(105, 105, 105, 0.1);
+  top: 2.5%;
+  left: 2.5%;
+  filter: blur(15px);
+  width: 95%;
+  height: 95%;
 }
 
 /*Headers*/
@@ -704,5 +739,13 @@
 
   .gm-flex {
     flex-direction: column;
+  }
+
+  .glass-nav > img.logo-right, .nav > img.logo-right {
+    position: absolute;
+    top: -2.5%;
+    left: 92.5%;
+    max-width: 55px;
+    height: auto;
   }
 }
