@@ -245,6 +245,13 @@
   border-color: rgba(235, 235, 235, 0.3);
 }
 
+.gm-panel-3 {
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(235, 235, 235, 0.3);
+}
+
 .gm-panel-7 {
   background-color: rgba(255, 255, 255, 0.7);
   border-color: rgba(235, 235, 235, 0.7);
