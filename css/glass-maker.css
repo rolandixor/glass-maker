@@ -269,9 +269,9 @@
   border-color: rgba(255, 255, 255, 0.4);
 }
 
-.gm-dark-panel-5::after {
+.gm-dark-panel-1::after {
   position: absolute;
-  background-color: rgba(15, 15, 15, 0.5);
+  background-color: rgba(15, 15, 15, 0.1);
   top: 5%;
   left: 5%;
   filter: blur(5px);
