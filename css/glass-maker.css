@@ -237,7 +237,7 @@
 .gm-panel::after {
   content: '';
   position: absolute;
-  background-color: rgba(215, 15, 15, 1);
+  background-color: rgba(215, 15, 15, 0.1);
   top: 5%;
   left: 5%;
   filter: blur(35px);
