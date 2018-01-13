@@ -239,7 +239,7 @@
   position: absolute;
   top: 5%;
   left: 1.5%;
-  filter: blur(0px);
+  filter: blur(15px);
   width: 97.5%;
   height: 90%;
   z-index: -1;
