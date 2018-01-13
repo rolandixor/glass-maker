@@ -257,7 +257,9 @@
   border-color: rgba(235, 235, 235, 0.3);
 }
 
-.gm-panel-1::after
+.gm-panel-1::after {
+  background-color: rgba(255, 255, 255, 0.5);
+}
 
 .gm-panel-3 {
   color: rgb(255, 255, 255);
