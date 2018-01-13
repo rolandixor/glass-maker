@@ -242,6 +242,7 @@
   filter: blur(5px);
   width: 90%;
   height: 90%;
+  z-index: -1;
 }
 
 /*Panels*/
