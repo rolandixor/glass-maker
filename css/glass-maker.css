@@ -372,13 +372,7 @@
 }
 
 .gm-dull-panel-7::after {
-  position: absolute;
   background-color: rgba(135, 135, 135, 0.7);
-  top: 5%;
-  left: 5%;
-  filter: blur(5px);
-  width: 90%;
-  height: 90%;
 }
 
 .gm-dim-panel-1 {
