@@ -238,9 +238,9 @@
   content: '';
   position: absolute;
   top: 5%;
-  left: 2.5%;
+  left: 1.5%;
   filter: blur(0px);
-  width: 95%;
+  width: 97.5%;
   height: 90%;
   z-index: -1;
 }
