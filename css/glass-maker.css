@@ -240,7 +240,7 @@
   background-color: rgba(215, 15, 15, 1);
   top: 5%;
   left: 5%;
-  filter: blur(15px);
+  filter: blur(35px);
   width: 90%;
   height: 90%;
   z-index: -1;
