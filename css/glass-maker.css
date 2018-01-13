@@ -234,6 +234,16 @@
   line-height: 1.5em;
 }
 
+.gm-panel::after {
+  position: absolute;
+  background-color: rgba(15, 15, 15, 0.1);
+  top: 5%;
+  left: 5%;
+  filter: blur(5px);
+  width: 90%;
+  height: 90%;
+}
+
 /*Panels*/
 .gm-panel > [class*="gm-panel"] {
   margin: 5px;
