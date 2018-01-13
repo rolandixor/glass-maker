@@ -339,13 +339,7 @@
 }
 
 .gm-dull-panel-1::after {
-  position: absolute;
   background-color: rgba(135, 135, 135, 0.1);
-  top: 5%;
-  left: 5%;
-  filter: blur(5px);
-  width: 90%;
-  height: 90%;
 }
 
 .gm-dull-panel-3 {
