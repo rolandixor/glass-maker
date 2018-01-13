@@ -405,15 +405,7 @@
 }
 
 .gm-dim-panel-5::after {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  background-color: rgba(105, 105, 105, 0.3);
-  top: 2.5%;
-  left: 2.5%;
-  filter: blur(15px);
-  width: 95%;
-  height: 95%;
+  background-color: rgba(105, 105, 105, 0.5);
 }
 
 .gm-dim-panel-7 {
