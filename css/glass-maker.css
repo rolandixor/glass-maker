@@ -394,13 +394,7 @@
 }
 
 .gm-dim-panel-3::after {
-  position: absolute;
-  background-color: rgba(105, 105, 105, 0.5);
-  top: 5%;
-  left: 5%;
-  filter: blur(5px);
-  width: 90%;
-  height: 90%;
+  background-color: rgba(105, 105, 105, 0.1);
 }
 
 .gm-dim-panel-5 {
