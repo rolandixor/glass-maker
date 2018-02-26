@@ -507,7 +507,7 @@
 /*Images*/
 [class*=gm-avatar] {
   margin: 5px;
-  border-color: rgba(255, 255, 255, 0.35) !important;
+  border-color: rgba(255, 255, 255, 0.35);
   border-style: solid;
   box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
 }
